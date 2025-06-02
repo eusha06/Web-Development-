@@ -1,0 +1,31 @@
+<style>
+    p {
+      background-color: blue;
+    }
+    .highlight {
+      background-color: yellow;
+      color: black;
+    }
+    #btncolor {
+      background-color: lightgreen;
+      color: blue;
+    }
+    .highlight, p, #btncolor {
+     background-color: aquamarine;
+    }
+    ol li span {
+      font-weight: bold;
+      color: darkgreen;
+    }
+    * {
+      margin: 5px;
+    }
+    b:hover {
+      color: aquamarine;
+      background-color: green;
+    }
+  </style>
+<body>
+  <p>Hello, This is Eusha</p>
+  <p class="highlight">This is class work</p>
+  <button id="btncolor">Click Me!</button>
